@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* ✔Provide bg image */
+    background-image: url('image/aa.jpg');
+    /* ✔Bg image should be fixed */
+    background-attachment: fixed;
+    /* ✔Non-repeating bg image */
+    background-repeat: no-repeat;
+    /* ✔Bg image should cover the size of the browser*/
+    background-size: cover;
+    background-position: center;
+    /* ✔Add a border of 2px, solid & w/ any color */
+    border: 2px solid white;
+    /* ✔Add a padding of 20px all sides */
+    padding: 20px;
+
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+}
+.head h1{
+    /* ✔Font: 30px and bolder */
+    font-size: 30px;
+    font-weight: bolder;
+}
+.head img{
+    /* Image with a rounded shape */
+    border-radius: 50%;
+    /* Image size of 150px x 150px */
+    width: 150px;
+    border: 5px solid #ffffff;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+    box-shadow: 0 15px 26.5px 0 rgba(204, 191, 191, 0.25);
+    transition: 0.5s ease;
+}
+img:hover, 
+.head a:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    color: #b2cfcc;
+}
+.head h2 a{
+    text-decoration: none; /* Remove underline */
+    font-family: Arial; /* Set font family to Arial */
+    color: white;
+}
+/* Displayed Name When Hovered */
+.head h2:hover{
+    border: 2px solid white;
+    background-color: green 70%;
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+/* ✔Details are displayed using square type unordered list */
+.expertice ul{
+    list-style-type: square;
+    margin: 10px 0 20px 20px;
+}
+.applications ol{
+    margin: 10px 0 20px 20px;
+}
+/* ✔#rd, 4th level heading, ul and ol */
+ul, ol{
+    text-align: left;
+    font-family: Arial;
+}
+h3, h4{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: linear-gradient(135deg, rgba(8, 114, 91, 0.5) 0%, rgb(14, 2, 4) 100%);
+}
+/* ✔Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial;
+    text-align: center;
+}
+th{
+    background: rgba(17, 92, 35, 0.25);
+}
+td, thead{
+    padding: 8px;
+}
+.container .table,th,td{
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+p{
+    margin: 20px 0 20px 0;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.container{
+    padding: 30px;
+    width: 800px;
+    height: 100%;
+    background-color: rgba(48, 37, 37, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    box-shadow: 0 15px 30px 0 rgb(34, 26, 26);
+    border:1px solid rgba(63, 58, 58, 0.5);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.expertice{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

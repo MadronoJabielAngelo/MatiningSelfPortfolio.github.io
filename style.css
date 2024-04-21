@@ -60,7 +60,7 @@ img:hover,
     transition: 0.5s ease;
 }
 /* ✔Details are displayed using square type unordered list */
-.expertice ul{
+.expertise ul{
     list-style-type: square;
     margin: 10px 0 20px 20px;
 }
@@ -112,7 +112,7 @@ p{
     padding: 30px;
     width: 800px;
     height: 100%;
-    background-color: rgba(48, 37, 37, 0.15);
+    background-color: rgba(48, 37, 37, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 25px;
     box-shadow: 0 15px 30px 0 rgb(34, 26, 26);
@@ -125,7 +125,7 @@ p{
     align-items: center;
     margin-bottom: 40px;
 }
-.expertice{
+.expertise{
     margin-top: 40px;
 }
 
